@@ -1,5 +1,5 @@
 {
-  "name": "@kadenceproject/kadence",
+  "name": "@kimziv/kadence",
   "version": "3.2.2",
   "description": "extensible, hardened, and flexible distributed systems framework",
   "main": "index.js",
@@ -19,12 +19,12 @@
     "coverage": "istanbul cover _mocha -- --recursive",
     "linter": "eslint ./index.js ./lib ./test",
     "generate-docs": "mkdir -p ./jsdoc && rm -r ./jsdoc && jsdoc index.js lib -r -R README.md -u ./doc -c .jsdoc.json --verbose -d ./jsdoc",
-    "publish-docs": "gh-pages -d jsdoc --repo git@github.com:kadence/kadence.github.io.git -b master"
+    "publish-docs": "gh-pages -d jsdoc --repo git@github.com:kimziv/kadence.github.io.git -b master"
   },
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/kadence/kadence.git"
+    "url": "https://github.com/kimziv/kadence.git"
   },
   "author": "Gordon Hall <gordonh@member.fsf.org>",
   "contributors": [
@@ -58,7 +58,7 @@
     "diglet": "1.0.6",
     "encoding-down": "4.0.0",
     "hdkey": "0.8.0",
-    "hsv3": "1.1.4",
+    "hsv3-kim": "1.1.5",
     "ip": "1.1.5",
     "json-stable-stringify": "1.0.1",
     "jsonrpc-lite": "1.3.0",
@@ -77,7 +77,7 @@
     "pem": "1.9.7",
     "rc": "1.2.1",
     "scrypt": "6.0.3",
-    "secp256k1": "3.5.0",
+    "secp256k1": "^3.5.0",
     "semver": "5.1.0",
     "socks": "1.1.10",
     "split": "1.0.1",
